@@ -33,7 +33,6 @@ function App() {
       .catch((error) => {
         setLoading(false);
         alert("Error fetching data. Please try again later.");
-        console.error(error);
       });
   };
 
